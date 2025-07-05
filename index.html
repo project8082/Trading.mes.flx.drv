@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BlueTrade - The Next-Gen Trading Experience</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="animated-bg"></div>
+  <header class="header">
+    <div class="logo">
+      <span>💹</span> BlueTrade
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#teams">Teams</a>
+      <a href="#contact">Contact</a>
+      <a href="#cta" class="btn nav-btn">Get Started</a>
+    </nav>
+    <div class="mobile-nav-toggle" id="mobileNavToggle">&#9776;</div>
+  </header>
+  <div id="mobileMenu" class="mobile-menu">
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#teams">Teams</a>
+    <a href="#contact">Contact</a>
+    <a href="#cta" class="btn nav-btn">Get Started</a>
+  </div>
+  <main>
+    <section class="intro fade-in" id="home">
+      <div class="intro-text">
+        <h1>Welcome to <span class="blue-gradient-text">BlueTrade</span></h1>
+        <p class="subtitle">The <b>next-gen</b> trading platform—fast, free, fun, and social. Built to help you trade smarter, connect with others, and enjoy the journey.</p>
+        <div class="cta-buttons" id="cta">
+          <a class="btn primary" href="https://deriv.com/signup/" target="_blank">Create Free Demo Account</a>
+          <a class="btn secondary" href="/auth/register.html">Register</a>
+          <a class="btn tertiary" href="/auth/login.html">Login</a>
+        </div>
+      </div>
+      <div class="intro-graphic animated-chart">
+        <!-- Animated SVG Chart -->
+        <svg width="320" height="180" viewBox="0 0 320 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <polyline id="chartLine"
+            fill="none"
+            stroke="#60a5fa"
+            stroke-width="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            points="0,120 40,80 80,100 120,60 160,90 200,50 240,100 280,40 320,70"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <section class="about fade-in" id="about">
+      <h2>About Us</h2>
+      <p>
+        <b>BlueTrade</b> is a new generation trading platform, designed for everyone. Our mission is to make the world of financial trading accessible, fun, and rewarding for all. We combine the power of real-time technology, simple design, and a supportive community to help you achieve your financial goals.  
+        <br><br>
+        Whether you're a beginner, a hobbyist, or an expert—trade with confidence, learn as you go, and join a platform that puts people first.
+      </p>
+    </section>
+
+    <section class="features fade-in" id="features">
+      <h2>Why Trade with BlueTrade?</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <span class="feature-icon">🚀</span>
+          <h3>Fast & Secure</h3>
+          <p>Lightning-fast executions, bank-level security, and real-time data feeds.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">🤝</span>
+          <h3>Social & Fun</h3>
+          <p>Copy top traders, join leaderboards, and chat with a vibrant community.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">💡</span>
+          <h3>Smart Tools</h3>
+          <p>Powerful analytics, risk controls, and automation—no experience needed.</p>
+        </div>
+        <div class="feature-card">
+          <span class="feature-icon">🎁</span>
+          <h3>100% Free</h3>
+          <p>No fees, no commissions. Ever. Just connect, learn, and grow.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="teams fade-in" id="teams">
+      <h2>Our Team</h2>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Team Member 1" />
+          <h4>Alex Mwangi</h4>
+          <p>Founder & CEO</p>
+          <div class="team-socials">
+            <a href="mailto:alex@bluetrade.com" title="Email">
+              <svg width="20" height="20" fill="currentColor"><use href="#email" /></svg>
+            </a>
+            <a href="https://twitter.com/alexbluetrade" target="_blank" title="X">
+              <svg width="20" height="20" fill="currentColor"><use href="#twitter" /></svg>
+            </a>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Team Member 2" />
+          <h4>Lydia Wangari</h4>
+          <p>Lead Developer</p>
+          <div class="team-socials">
+            <a href="mailto:lydia@bluetrade.com" title="Email">
+              <svg width="20" height="20" fill="currentColor"><use href="#email" /></svg>
+            </a>
+            <a href="https://t.me/lydiadev" target="_blank" title="Telegram">
+              <svg width="20" height="20" fill="currentColor"><use href="#telegram" /></svg>
+            </a>
+          </div>
+        </div>
+        <div class="team-card">
+          <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Team Member 3" />
+          <h4>Samuel Kimani</h4>
+          <p>Community Manager</p>
+          <div class="team-socials">
+            <a href="mailto:samuel@bluetrade.com" title="Email">
+              <svg width="20" height="20" fill="currentColor"><use href="#email" /></svg>
+            </a>
+            <a href="https://wa.me/1234567890" target="_blank" title="WhatsApp">
+              <svg width="20" height="20" fill="currentColor"><use href="#whatsapp" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- SVG ICONS SPRITE -->
+      <svg style="display:none;">
+        <symbol id="twitter" viewBox="0 0 24 24">
+          <path d="M21.5 6.9a7.6 7.6 0 01-2.05.56 3.54 3.54 0 001.6-1.98 7.2 7.2 0 01-2.22.85A3.6 3.6 0 0016.7 5c-2 0-3.5 1.8-3.1 3.75a10.1 10.1 0 01-7.3-3.7 3.6 3.6 0 001.1 4.8c-.8-.02-1.5-.24-2-.6v.06c0 1.8 1.2 3.3 2.8 3.6-.3.1-.6.16-.9.06.2 1 1.3 1.7 2.4 1.7A7.3 7.3 0 013 18.1 10.2 10.2 0 008.3 19.5c6.3 0 9.7-5.3 9.7-9.8 0-.15 0-.3-.01-.45a7.4 7.4 0 002-1.94z"></path>
+        </symbol>
+        <symbol id="telegram" viewBox="0 0 24 24">
+          <path d="M21.05 2.67c-.28-.23-.67-.3-1.02-.17L3.6 8.85c-.38.14-.64.49-.64.89 0 .4.26.75.64.89l4.7 1.7 1.72 5.17c.13.37.48.62.87.62.05 0 .1 0 .14-.02.4-.06.7-.37.78-.77l1.17-5.5 4.81-2.14c.39-.17.59-.62.46-1.01a.87.87 0 00-.7-.61z"></path>
+        </symbol>
+        <symbol id="whatsapp" viewBox="0 0 24 24">
+          <path d="M12.04 2A9.94 9.94 0 002 12c0 1.78.47 3.51 1.37 5.03L2 22l5.09-1.33A9.93 9.93 0 0012.04 22c5.51 0 9.96-4.45 9.96-9.95C22 6.45 17.55 2 12.04 2zm0 17.93c-1.52 0-3.01-.4-4.3-1.16l-.3-.19-3.02.79.81-2.94-.2-.3A8.03 8.03 0 014.01 12c0-4.42 3.6-8.01 8.03-8.01S20.08 7.58 20.08 12c0 4.41-3.6 8.01-8.04 8.01zm4.33-5.76c-.23-.11-1.35-.67-1.56-.75-.21-.08-.36-.12-.51.11-.15.22-.58.75-.71.91-.13.15-.26.16-.48.05a6.6 6.6 0 01-1.94-1.2 7.22 7.22 0 01-1.33-1.61c-.14-.22-.02-.34.1-.45.1-.1.22-.26.33-.39.11-.13.15-.23.23-.38.08-.14.04-.28-.02-.39-.07-.12-.51-1.23-.7-1.67-.18-.44-.37-.37-.51-.38-.13-.01-.28-.01-.44-.01-.15 0-.4.06-.61.28-.21.22-.82.8-.82 1.95 0 1.14.84 2.25.96 2.41.12.16 1.65 2.53 4.03 3.1.56.13.98.21 1.31.13.4-.11 1.35-.55 1.54-1.09.19-.54.19-1 .13-1.09-.07-.1-.2-.16-.43-.27z"></path>
+        </symbol>
+        <symbol id="email" viewBox="0 0 24 24">
+          <path d="M20 4H4C2.9 4 2 4.9 2 6v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2l-8 6.01L4 6V6zm0 12H4V8l8 6 8-6v10z"></path>
+        </symbol>
+      </svg>
+    </section>
+
+    <section class="contact fade-in" id="contact">
+      <h2>Contact Us</h2>
+      <p>Have questions? Want to join our community or partner with us? Reach out anytime!</p>
+      <div class="contact-socials">
+        <a href="mailto:info@bluetrade.com" target="_blank" title="Email">
+          <svg width="32" height="32" fill="currentColor"><use href="#email" /></svg>
+        </a>
+        <a href="https://twitter.com/bluetrade" target="_blank" title="X">
+          <svg width="32" height="32" fill="currentColor"><use href="#twitter" /></svg>
+        </a>
+        <a href="https://t.me/bluetrade" target="_blank" title="Telegram">
+          <svg width="32" height="32" fill="currentColor"><use href="#telegram" /></svg>
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank" title="WhatsApp">
+          <svg width="32" height="32" fill="currentColor"><use href="#whatsapp" /></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 BlueTrade. All rights reserved.
+  </footer>
+  <script>
+    // Animated chart line
+    window.onload = function() {
+      const chart = document.getElementById('chartLine');
+      if (chart) {
+        chart.style.strokeDasharray = chart.getTotalLength();
+        chart.style.strokeDashoffset = chart.getTotalLength();
+        setTimeout(() => {
+          chart.style.transition = "stroke-dashoffset 2.5s cubic-bezier(.77,0,.18,1)";
+          chart.style.strokeDashoffset = 0;
+        }, 400);
+      }
+      // Fade-in effect
+      document.querySelectorAll('.fade-in').forEach((el, i) => {
+        setTimeout(() => el.classList.add('visible'), 300 + 280*i);
+      });
+    };
+
+    // Mobile nav
+    document.getElementById('mobileNavToggle').onclick = function() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    };
+    document.querySelectorAll('.mobile-menu a').forEach(link => {
+      link.onclick = () => document.getElementById('mobileMenu').classList.remove('open');
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.onclick = function(e) {
+        if (this.getAttribute("href").length > 1) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    });
+  </script>
+</body>
+</html>
