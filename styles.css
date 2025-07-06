@@ -408,3 +408,30 @@ footer {
   .mobile-nav-toggle { display: block; }
   .header nav { display: none; }
 }
+/* ... (all styles from previous version remain, but add this for mobile menu header) ... */
+.mobile-menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1.6em 0.5em 1.6em;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.mobile-menu-header span {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
+#mobileMenuClose {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 1.2em;
+}
+#mobileMenuClose svg {
+  transition: transform 0.2s;
+}
+#mobileMenuClose:hover svg {
+  transform: rotate(90deg) scale(1.1);
+}
